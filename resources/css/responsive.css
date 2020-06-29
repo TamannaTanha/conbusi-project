@@ -1,0 +1,133 @@
+@media screen and (max-width: 992px){
+    
+#footer-section input{
+   box-sizing: border-box;
+    width: 100%;
+    }
+#footer-section .footer-btn{
+    position: static;
+    margin: 10px;
+ 
+    }
+    .col-pad{
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 800px){
+   .btn-one{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .btn-one{
+        display: none;
+    }
+
+    #contact-section .contactimg{
+        display: none;
+    }
+}
+@media screen and (max-width: 576px){
+    .carousel-caption h3{
+        font-size: 42px;
+    }
+    .carousel-item img{
+        min-height: 450px;
+    }
+    .btn-two{
+        padding: 15px 30px;
+    }
+    #counter-section{
+        height: 650px;
+    }
+
+    #case-section img{
+        width: 100%;
+    }
+    #case-section img:hover{
+        transform: scale(1.0);
+    }
+    #case-section h2{
+        font-size: 2.5em;
+    }
+    #team-section h2{
+        font-size: 2.5em;
+    }
+    #testimonial-section .carousel-item img{
+        min-height: 50px;
+    }
+    #information-section h2{
+        font-size: 2em;
+    }
+    #do-section h2{
+        font-size: 2.5em;
+    }
+    #consulting-section h3{
+        font-size: 40px;
+    }
+    #casedetails-header h3{
+        font-size: 40px;
+    }
+     #portfolio-section img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px){
+    .carousel-caption h3{
+        font-size: 32px;
+        letter-spacing: 0px;
+        line-height: 50px;
+    }
+     .col-pad{
+        padding-left: 20px;
+    }
+    
+}
+@media screen and (max-width: 420px){
+    #contact-header h2,
+    #casestudy-header h2{
+        left: 85px;
+    }
+    #services-header h2,
+    #about-header h2{
+        left: 120px;
+    }
+}
+@media screen and (max-width: 380px){
+    #about-header h2,
+    #services-header h2{
+        left: 95px;
+    }
+    #casestudy-header h2,
+    #contact-header h2{
+        left: 65px;
+    }
+    #team-section img{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 360px){
+     #team-section img{
+        width: 330px;
+    }
+}
+@media screen and (max-width: 320px){
+    #team-section img{
+        width: 280px;
+    }
+    .case-btn button:nth-child(3){
+        margin-top: 10px;
+    }
+    #about-header h2,
+    #services-header h2{
+        left: 60px;
+    }
+    #casestudy-header h2,
+    #contact-header h2{
+        left: 30px;
+    }
+    #blog-header h2{
+        left: 110px;
+    }
+}

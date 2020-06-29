@@ -1,0 +1,700 @@
+/*==========================
+Template Name: Conbusi - A Multipage consulting Bootstrap web Template.
+Template URI: https://themewagon.com
+Description: Conbusi - A Multipage consulting Bootstrap web Template.
+Author : Tamanna
+Author URI: https://www.facebook.com/tanhatamanna-1394
+Support: moshiur@codersfoundation.com
+Version: 1.0
+============================*/
+
+/*=========================
+       BASIC SETUP
+===========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
+
+*{
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Poppins', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+button:focus {
+    outline: 0px dotted;
+}
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+ul li{
+    list-style: none;
+    padding: 5px;
+}
+/*=============== HEADER SECTION START HERE================*/
+
+.navbar{
+    border-bottom: 1px solid rgb(255,255,255);
+    padding: 20px 0;
+    z-index: 9999;
+    width: 100%;
+    background: rgba(0,0,0);
+}
+.nav-item .nav-link{
+    font-size: 15px;
+}
+
+.slide-img img{
+    min-height: 700px;
+    margin-top: 92px;
+}
+
+.carousel-caption h3{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 76px;
+}
+ .submenu{
+    position: absolute;
+    background: rgb(255,255,255);
+    padding: 28px 77px 28px 15px;
+    color: #000;
+    display: none;
+    -webkit-transition: 5s all;
+    transition: 5s all;
+    overflow: hidden;
+}
+.menu i{
+    font-size: 12px;
+}
+
+.menu:hover .submenu{
+    display: block;
+   
+}
+.submenu a{
+    padding: 5px 0;
+    color: #000;
+
+}
+.active-menu{
+    border-bottom: 3px solid rgb(17, 133, 238);
+
+}
+.btn-one{
+    background: -webkit-gradient(linear,left top, right top,from(rgb(17, 133, 238)),to(rgb(148, 204, 245)));
+    background: linear-gradient(to right,rgb(17, 133, 238),rgb(148, 204, 245));
+    border: 0px;
+    padding: 12px 24px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+
+}
+.btn-one:hover{
+     background: -webkit-gradient(linear,right top, left top,from(rgb(17, 133, 238)),to(rgb(148, 204, 245)));
+     background: linear-gradient(to left,rgb(17, 133, 238),rgb(148, 204, 245));
+    color: #fff;
+}
+.btn-two{
+    background: -webkit-gradient(linear,left top, right top,from(rgb(17, 133, 238)),to(rgb(148, 204, 245)));
+    background: linear-gradient(to right,rgb(17, 133, 238),rgb(148, 204, 245));
+    border: 0px;
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    float: left;
+}
+.btn-two:hover{
+     background: -webkit-gradient(linear,right top, left top,from(rgb(17, 133, 238)),to(rgb(148, 204, 245)));
+     background: linear-gradient(to left,rgb(17, 133, 238),rgb(148, 204, 245));
+    color: #fff;
+}
+
+/*==============HEADER SECTION END HERE================*/
+
+/*==============WHAT WE DO SECTION START HERE================*/
+#do-section h2{
+    font-size: 3em;
+}
+ .icon-img1{
+    line-height: 94px;
+    width: 98px;
+    height: 98px;
+    margin: auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0181f5), to(#5db2ff));
+    background: linear-gradient(to bottom, #0181f5 0%, #5db2ff 100%);
+    border-radius: 50%;
+}
+ .icon-img2{
+    line-height: 94px;
+    width: 98px;
+    height: 98px;
+    margin: auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00d363), to(#37ef8d));
+    background: linear-gradient(to bottom, #00d363 0%, #37ef8d 100%);
+    border-radius: 50%;
+}
+ .icon-img3{
+    line-height: 94px;
+    width: 98px;
+    height: 98px;
+    margin: auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fd8e5e), to(#fd8e5e));
+    background: linear-gradient(to bottom, #fd8e5e 0%, #fd8e5e 100%);
+    border-radius: 50%;
+}
+.icon-img4{
+    line-height: 94px;
+    width: 98px;
+    height: 98px;
+    margin: auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#615cfd), to(#d465ef));
+    background: linear-gradient(to bottom, #615cfd 0%, #d465ef 100%);
+    border-radius: 50%;
+}
+ .icon-img5{
+    line-height: 94px;
+    width: 98px;
+    height: 98px;
+    margin: auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0181f5), to(#5db2ff));
+    background: linear-gradient(to bottom, #0181f5 0%, #5db2ff 100%);
+    border-radius: 50%;
+}
+ .icon-img6{
+    line-height: 94px;
+    width: 98px;
+    height: 98px;
+    margin: auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a64eee), to(#3c35ce));
+    background: linear-gradient(to bottom, #a64eee 0%, #3c35ce 100%);
+    border-radius: 50%;
+}
+#do-section h4{
+    font-weight: 300;
+}
+
+.card-hover:hover{
+    border-style: none;
+}
+
+/*==============WHAT WED DO SECTION END HERE================*/
+
+/*==============CONSULTING SECTION START HERE================*/
+#consulting-section h3{
+    font-size: 46px;
+    font-weight: 300;
+}
+#consulting-section .btn-one{
+    background: -webkit-gradient(linear,left top, right top,from(rgb(17, 133, 238)),to(rgb(148, 204, 245)));
+    background: linear-gradient(to right,rgb(17, 133, 238),rgb(148, 204, 245));
+    border: 0px;
+    padding: 14px 38px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+
+}
+#consulting-section .btn-one:hover{
+     background: -webkit-gradient(linear,right top, left top,from(rgb(17, 133, 238)),to(rgb(148, 204, 245)));
+     background: linear-gradient(to left,rgb(17, 133, 238),rgb(148, 204, 245));
+    color: #fff;
+}
+
+/*==============CONSULTING SECTION END HERE================*/
+
+/*==============COUNTER SECTION START HERE================*/
+
+#counter-section{
+    background: -webkit-gradient(linear,left top, right top,from(rgba(99, 114, 126, 0.8)),to(rgba(99, 114, 126, 0.7))),url(img/counter.png) no-repeat center / cover;
+    background: linear-gradient(to right,rgba(99, 114, 126, 0.8),rgba(99, 114, 126, 0.7)),url(img/counter.png) no-repeat center / cover;
+    height: 400px;
+}
+#counter-section h3{
+    font-size: 46px;
+    font-weight: 300;
+}
+#counter-section p{
+    color: #E8E8E8;
+    font-size: 16px;
+    font-weight: 400;
+}
+/*==============COUNTER SECTION END HERE================*/
+
+/*==============CASE STUDY SECTION START HERE================*/
+
+#case-section h2{
+    font-size: 3em;
+    font-weight: 300;
+}
+#case-section .cover{
+    background: #fff;
+    -webkit-box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    overflow: hidden;
+}
+.case-link{
+    color: #000;
+}
+#case-section img{
+    -webkit-transition: .5s;
+    transition: .5s;
+    overflow: hidden;
+}
+#case-section img:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+/*==============CASE STUDY SECTION END HERE================*/
+
+/*==============ACCORDION SECTION START HERE================*/
+#faq-section{
+    overflow: hidden;
+}
+#faq-section h3{
+    font-size: 46px;
+    font-weight: 300;
+}
+#faq-section i{
+    font-size: 15px;
+}
+#faq-section a{
+    font-size: 15px;
+    color: #001D38;
+    font-weight: 300;
+}
+
+/*==============ACCORDION SECTION END HERE================*/
+
+/*==============TESTIMONIAL SECTION START HERE================*/
+
+#testimonial-section{
+    background: -webkit-gradient(linear,left top, left bottom,from(rgba(26, 53, 80, 0.5)),to(rgba(50, 99, 147, 0.7))), url(img/testmonial.png) no-repeat center / cover;
+    background: linear-gradient(rgba(26, 53, 80, 0.5),rgba(50, 99, 147, 0.7)), url(img/testmonial.png) no-repeat center / cover;
+    overflow: hidden;
+}
+
+/*==============TESTIMONIAL SECTION END HERE================*/
+
+/*==============TEAM SECTION START HERE================*/
+
+#team-section h2{
+    font-size: 3em;
+    font-weight: 300;
+}
+.social-icon a{
+    color: #c7c7c7;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.social-icon a:hover{
+    color: rgb(17, 133, 238);
+}
+
+
+/*==============TEAM SECTION END HERE================*/
+
+/*==============CONTACT SECTION START HERE================*/
+
+#contact-section h3{
+    font-size: 46px;
+    font-weight: 300;
+}
+.btn-four{
+    background: -webkit-gradient(linear,left top, right top,from(rgb(17, 133, 238)),to(rgb(148, 204, 245)));
+    background: linear-gradient(to right,rgb(17, 133, 238),rgb(148, 204, 245));
+    border: 0px;
+    padding: 11px 0;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    float: left;
+}
+.btn-four:hover{
+     background: -webkit-gradient(linear,right top, left top,from(rgb(17, 133, 238)),to(rgb(148, 204, 245)));
+     background: linear-gradient(to left,rgb(17, 133, 238),rgb(148, 204, 245));
+    color: #fff;
+}
+.contact-form{
+    width: 80%;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea{
+    border: none;
+    border-bottom: 1px solid #E8E8E8;
+    color: #000;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #E8E8E8;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*==============CONTACT SECTION END HERE================*/
+
+
+/*==============INFORMATION SECTION START HERE================*/
+#information-section{
+    background:  -webkit-gradient(linear,left top, left bottom,from(rgba(26, 53, 80, 0.5)),to(rgba(50, 99, 147, 0.7))), url(img/info_banner.png) no-repeat center / cover;
+    background:  linear-gradient(rgba(26, 53, 80, 0.5),rgba(50, 99, 147, 0.7)), url(img/info_banner.png) no-repeat center / cover;
+}
+.contact-btn{
+    background: -webkit-gradient(linear,left top, right top,from(rgb(17, 133, 238)),to(rgb(148, 204, 245)));
+    background: linear-gradient(to right,rgb(17, 133, 238),rgb(148, 204, 245));
+    border: 0px;
+    padding: 11px 30px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+}
+.contact-btn:hover{
+     background: -webkit-gradient(linear,right top, left top,from(rgb(17, 133, 238)),to(rgb(148, 204, 245)));
+     background: linear-gradient(to left,rgb(17, 133, 238),rgb(148, 204, 245));
+     color: #fff;
+}
+
+#information-section h2{
+    font-size: 3em;
+    font-weight: 300;
+}
+/*==============INFORMATION SECTION END HERE================*/
+
+/*==============FOOTER SECTION START HERE================*/
+
+#footer-section .footer-text,
+#footer-section .services-link,
+#footer-section .usefull-link{
+    font-size: 13px;
+}
+ .link{
+    color: #919191;
+     -webkit-transition: 1s;
+     transition: 1s;
+}
+ .link:hover{
+    color: rgb(17, 133, 238);
+}
+
+
+.footer-icon i{
+    color: #c7c7c7;
+    -webkit-transition: 1s;
+    transition: 1s;
+    border: 1px solid #c7c7c7;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    
+}
+.footer-icon i:hover{
+    background-color: rgb(17, 133, 238);
+    color: #fff;
+    border: 1px solid rgb(17, 133, 238);
+}
+
+.footer-btn{
+    position: absolute;
+    height: 38px;
+    border: none;
+    color: #fff;
+    background: #5DB2FF;
+    padding: 10px;
+    padding: 0 22px;
+    cursor: pointer;
+    border-radius: 30px;
+    top: 6px;
+    right: -16px;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+.subscribe{
+    position: relative;
+    width: 95%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.subscribe input{
+    width: 110%;
+    height: 50px;
+    background: #fff;
+    font-size: 15px;
+    color: #000;
+    border: none;
+    border: 1px solid #E8E8E8;
+    border-radius: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*==============FOOTER SECTION END HERE================*/
+
+/*======================================================
+             ABOUT PAGE START HERE
+=======================================================*/
+
+/*==============ABOUT-HEADER SECTION START HERE================*/
+#about-header{
+    background: url(img/banner.png) no-repeat center top / cover;
+    min-height: 500px;
+    margin-top: 4em;
+}
+#about-header h2{
+    position: absolute;
+    top: 200px;
+    left: 140px;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+/*==============ABOUT-HEADER SECTION END HERE================*/
+
+/*======================================================
+             CASE DETAILS PAGE START HERE
+=======================================================*/
+
+/*==============CASEDETAILS-HEADER SECTION START HERE================*/
+
+#casedetails-header h3{
+    font-size: 46px;
+    font-weight: 300;
+}
+
+/*==============CASEDETAILS-HEADER SECTION END HERE================*/
+
+/*======================================================
+             SERVICES PAGE START HERE
+=======================================================*/
+
+/*==============SERVICES-HEADER SECTION START HERE================*/
+
+#services-header{
+    background: url(img/banner.png) no-repeat center top / cover;
+    min-height: 500px;
+    margin-top: 4em;
+}
+#services-header h2{
+    position: absolute;
+    top: 200px;
+    left: 140px;
+    font-size: 3em;
+    font-weight: 300;
+}
+/*==============SERVICES-HEADER SECTION END HERE================*/
+
+/*======================================================
+             CASE STUDY PAGE START HERE
+=======================================================*/
+
+/*==============CASESTUDY-HEADER SECTION START HERE================*/
+
+#casestudy-header{
+    background: url(img/banner.png) no-repeat center top / cover;
+    min-height: 500px;
+    margin-top: 4em;
+}
+#casestudy-header h2{
+    position: absolute;
+    top: 200px;
+    left: 140px;
+    font-size: 3em;
+    font-weight: 300;
+}
+#portfolio-section .card{
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+#portfolio-section .card-header{
+    overflow: hidden;
+}
+#portfolio-section img{
+     -webkit-transition: .5s;
+     transition: .5s;
+}
+#portfolio-section img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.btn-outline-primary:focus {
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
+button:focus{
+    outline: 0px dotted;
+}
+primary:not(:disabled):not(.disabled).active:focus, .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0 rgba(0,123,255,.5);
+    box-shadow: 0 0 0 0 rgba(0,123,255,.5);
+}
+/*==============CASESTUDY-HEADER SECTION END HERE================*/
+
+/*======================================================
+             BLOG PAGE START HERE
+=======================================================*/
+
+/*==============BLOG-HEADER SECTION START HERE================*/
+
+#blog-header{
+    background: url(img/banner.png) no-repeat center top / cover;
+    min-height: 500px;
+    margin-top: 4em;
+}
+#blog-header h2{
+    position: absolute;
+    top: 200px;
+    left: 140px;
+    font-size: 3em;
+    font-weight: 300;
+}
+.blog-img{
+    position: relative;
+}
+.blog-date{
+    position: absolute;
+    top: 82%;
+    left: 55px;
+    padding: 0 35px;
+    background: #8383f4;
+    color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+    overflow: hidden;
+}
+.blog-date:hover{
+    cursor: pointer;
+    background: transparent;
+    color: #8383f4;
+}
+
+.blog-details h2{
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.blog-details h2:hover{
+    color:  #8383f4;
+}
+.blog-details p{
+    color: #4D4D4D;
+    font-weight: 300;
+}
+.blog-link{
+    font-size: 14px;
+}
+.blog-link i,
+.blog-link span{
+     color: #4D4D4D;
+}
+
+.search input{
+    font-size: 14px;
+    position: relative;
+    font-weight: 300;
+}
+
+.search-icon{
+    position: absolute;
+    top: 13px;
+    left: 82%;
+    
+}
+.search-btn a{
+    letter-spacing: 2px;
+    border-radius: 0px;
+}
+.category-blog a{
+    color: #4d4d4d;
+}
+.media-body h5{
+    font-size: 16px;
+    color: #000;
+}
+.media-body h5:hover{
+     color:  #8383f4;
+}
+.cloud-button button{
+    font-size: 12px;
+    color: #4d4d4d;
+    padding: 5px 12px;
+    border-radius: 0px;
+    border: 1px solid rgba(108, 117, 125, 0.2);
+}
+
+/*==============BLOG-HEADER SECTION END HERE================*/
+
+/*======================================================
+            CONTACT PAGE START HERE
+=======================================================*/
+
+/*==============CONTACT-HEADER SECTION START HERE================*/
+
+#contact-header{
+    background: url(img/banner.png) no-repeat center top / cover;
+    min-height: 500px;
+    margin-top: 4em;
+}
+#contact-header h2{
+    position: absolute;
+    top: 200px;
+    left: 140px;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+#contact-section h3{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-section input,
+#contact-section textarea{
+    font-size: 13px;
+    border-radius: 0;
+}
+.contactbtn button{
+    border-radius: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.information i,
+.mobile i,
+.support i{
+    font-size: 27px;
+}
+.information h4,
+.mobile h4,
+.support h4{
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.col-pad{
+    padding-left: 130px;
+}
+/*==============CONTACT-HEADER SECTION END HERE================*/
+
